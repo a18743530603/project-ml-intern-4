@@ -1,1 +1,17 @@
-# project-ml-intern-4
+- 周一（2.5h）
+  - 任务：选定第一个端到端小项目数据集（建议：Titanic 或其他 Kaggle 入门数据集）。明确问题定义与评估 metric。
+  - 开始：建立项目 notebook skeleton（sections: Summary, Data, EDA, Preprocessing, Modeling, Eval, Conclusion）。
+- 周二（2.5h）
+  - 数据清洗与特征工程（执行 week1/2 学到的技术：缺失处理、类别编码、engineered features）。记录实验对比。
+- 周三（2.5h）
+  - 模型训练：用 sklearn 训练 LogisticRegression、RandomForestBaseline、以及简单的 LightGBM（如可用）。做 5-fold CV，记录 metric（accuracy/AUC 或你选的 metric）。
+- 周四（2.5h）
+  - 模型优化：尝试 basic hyperparameter tuning（GridSearch 或 RandomizedSearch, 或调整学习率/树深度），并记录改进幅度。加入 model persistence（joblib.dump）。
+- 周五（2.5h）
+  - 结果解释与可视化：绘制 feature importance（树模型）或 SHAP（如果时间允许），写结论段落（为什么某些 feature 有用）。
+  - 准备 demo 脚本（2–3 分钟要点：问题、你的方法、主要结果、可改进点）。
+- 周六（2.5h）
+  - 打包 deliverable：检查 notebook 可直接运行（Colab），写 README（如何运行、依赖、关键结论），录制 2–3 分钟演示视频（用屏幕录制），把所有文件 push。
+- 周日（1h）月复盘（重点）
+  - 做 3–5 分钟的“demo 回顾”：把 demo 存到仓库与一个短的反思笔记（本月学到的最重要三点、下月改进目标）。
+  - 评估是否达到第1月验收标准（可运行 notebook、README、demo）。# project-ml-intern-4
